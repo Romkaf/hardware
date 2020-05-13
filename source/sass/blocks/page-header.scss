@@ -1,0 +1,97 @@
+.page-header__wrapper {
+  display: flex;
+  align-items: center;
+  height: 173px;
+  background-color: #223036;
+}
+
+.page-header__logo {
+  flex-shrink: 0;
+  margin-left: 43px; //3.59%
+  margin-top: 11px;
+}
+
+.page-header__logo img {
+  width: 378px;
+  height: 89px;
+}
+
+.page-header__text {
+  margin-left: 53px; //4.42%
+  max-width: 658px;
+  font-family: "PT Sans Caption", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.page-header__login {
+  align-self: start;
+  margin-top: 14px;
+  margin-right: 19px;
+  margin-left: 18px;
+  font-size: 15px;
+  line-height: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media (max-width:$tablet-horizontal-width) {
+  .page-header__logo {
+    margin-left: 27px;
+  }
+
+  .page-header__text {
+    margin-left: 19px;
+    margin-bottom: -9px;
+  }
+
+  .page-header__login {
+    margin: 16px 16px 0 10px;
+  }
+}
+
+@media (max-width:925px) {
+  .page-header__logo {
+    flex-shrink: 1;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    margin-left: 0;
+  }
+
+  .page-header__text {
+    display: none;
+  }
+
+  .page-header__login {
+    margin-left: auto;
+    // flex-shrink: 0;
+  }
+}
+
+@media (max-width:500px) {
+  .page-header__wrapper {
+    height: 48px;
+  }
+  
+  .page-header__logo {
+    position: static;
+    margin: auto;
+    margin-left: 71px;
+    background: url(../../img/component-logo-mobile.png) no-repeat;
+    background-position: center;
+  }
+
+  .page-header__logo img {
+    width: 35px;
+    height: 34px;
+  }
+
+  .page-header__login {
+    margin-top: 19px;
+    margin-right: 16px;
+  }
+}

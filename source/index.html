@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>сайт Hardware</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="page-body">
+  <header class="page-header">
+    <div class="page-header__wrapper">
+      <a class="page-header__logo">
+        <picture>
+          <source media="(max-width:500px)" srcset="./img/small-logo.png">
+          <img class="page-header__logo-image" src="./img/big-logo.png" alt="Логотип сайта">
+        </picture>
+      </a>
+      <p class="page-header__text">Здесь думающие ​люди ​делятся ​уникальным ​​опытом. ​​Здесь будет ​​одинаково ​интересно ​программистам ​и журналистам, ​​админам ​и рекламщикам, ​аналитикам ​и дизайнерам, ​менеджерам ​высшего ​и среднего ​звена, ​владельцам ​крупных ​компаний ​и небольших ​фирм, ​а также ​всем ​тем, ​для кого ​IT — ​это не просто ​две буквы ​алфавита.</p>
+      <a href="#" class="page-header__login">Вход</a>
+    </div>
+    <nav class="page-header__nav site-nav">
+      <button class="site-nav__toggle site-nav__toggle--mobile button-toggle" type="button">
+        <span class="visually-hidden">Открыть</span>
+      </button>
+      <ul class="site-nav__list site-list">
+        <li class="site-list__item"><a href="#" class="site-list__link">Новости</a></li>
+        <li class="site-list__item"><a href="#" class="site-list__link">Видео</a></li>
+        <li class="site-list__item"><a href="#" class="site-list__link">Тесты</a></li>
+        <li class="site-list__item"><a href="#" class="site-list__link">Серии</a></li>
+        <li class="site-list__item"><a class="site-list__link site-list__link--active">Рубрики</a></li>
+      </ul>
+      <button class="site-nav__search site-nav__search--mobile">
+        <span class="site-nav__search-tablet">Поиск</span>
+      </button>
+    </nav>
+  </header>
+  <main class="page-main">
+    <h1 class="visualy-hidden">Рубрики</h1>
+    <section class="rubrics">
+      <h2 class="rubrics__heading">Сегодня в выпуске</h2>
+      <div class="rubrics__list">
+        <article class="rubrics__item rubrics__item--main">
+          <a href="#" class="rubrics__button button">Сделай сам</a>
+          <h3 class="rubrics__name">Блокнот с осциллографом и генератором частот (звуковой картой)</h3>
+          <p class="rubrics__text">Решил немного написать про свою поделку. Несколько раз попадались разнообразные diy линейки. Захотелось сделать себе что-то подобное, многофункциональное. Форм-фактор линейки мне не очень подходил, решил сделать в виде блокнота.</p>
+          <div class="rubrics__author-info">
+            <cite class="rubrics__author">GMaksim2008 /</cite>
+            <time class="rubrics__time">22 марта, 12:15</time>
+          </div>
+          <div class="rubrics__extra-info">
+            <span class="rubrics__icon">4567</span>
+            <span class="rubrics__icon">12</span>
+            <span class="rubrics__icon">45</span>
+            <span class="rubrics__icon">678</span>
+          </div>
+        </article>
+        <article class="rubrics__item">
+          <a href="#" class="rubrics__button button">Железо</a>
+          <h3 class="rubrics__name">Древности: удаленная работа на устройствах 1998 года</h3>
+          <p class="rubrics__text">Поговорим о старых железках. В 2020 году у нас есть множество инструментов удаленной работы — от традиционной электронной почты, до весьма совершенных мессенджеров, веб-конференций с... </p>
+          <div class="rubrics__author-info">
+            <cite class="rubrics__author">f15 /</cite>
+            <time class="rubrics__time">22 марта, 12:15</time>
+          </div>
+          <div class="rubrics__extra-info">
+            <span class="rubrics__icon">4567</span>
+            <span class="rubrics__icon">12</span>
+            <span class="rubrics__icon">45</span>
+            <span class="rubrics__icon">678</span>
+          </div>
+        </article>
+        <article class="rubrics__item">
+          <a href="#" class="rubrics__button button">Железо</a>
+          <h3 class="rubrics__name">Кластер Elasticsearch на 200 ТБ+</h3>
+          <p class="rubrics__text"></p>
+          <div class="rubrics__author-info">
+            <cite class="rubrics__author">entropicus /</cite>
+            <time class="rubrics__time">22 марта, 12:15</time>
+          </div>
+          <div class="rubrics__extra-info">
+            <span class="rubrics__icon">4567</span>
+            <span class="rubrics__icon">12</span>
+            <span class="rubrics__icon">45</span>
+            <span class="rubrics__icon">678</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
