@@ -1,0 +1,64 @@
+.slider {
+  position: relative;
+}
+.slider__buttons {
+  display: inline-block;
+  position: absolute;
+  right: -5px;
+}
+.slider__button {
+  position: relative;
+  width: 27px;
+  height: 28px;
+  padding: 0;
+  background: none;
+  border: none;
+
+  &:focus {
+    outline: #000000 dotted 1px;
+  }
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 12px;
+    height: 2px;
+    background-color:rgba(81, 110, 119, 0.43);
+  }
+
+  &::before {
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+}
+
+
+.slider__button--prev {
+  &::before,
+  &::after {
+    transform-origin: left;
+    left: 25%;
+  }
+}
+
+.slider__button--next {
+  &::before,
+  &::after {
+    transform-origin: right;
+    right: 25%;
+  }
+}
+
+// .slider__list {
+//   display: flex;
+    // overflow: hidden;   
+// }
+
+// .slider__item {
+//   flex-shrink: 0;
+// }

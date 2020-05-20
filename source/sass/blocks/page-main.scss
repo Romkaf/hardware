@@ -1,0 +1,30 @@
+.page-main {
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.page-main__wrapper {
+  position: relative;
+  display: flex;
+  // padding:99px 68px 30px 72px;//8.28% 5.83% 30px 6%; 8.1vw 5.7vw 30px 5.8v
+  // padding:8.05vw 5.51vw 30px 5.89vw;
+  padding:8.28% 5.83% 30px 6%;
+  padding-right: calc(50% - 533px);
+  padding-left: calc(50% - 528px);
+  // outline:orange solid 1px;
+}
+
+.page-main__wrapper-left {
+  width: 789px;//74.55%;
+  // flex-shrink: 0;
+  padding-right: 20px;
+  // outline:red solid 1px;
+}
+
+.page-main__wrapper-right {
+  width: 251px;
+  flex-shrink: 0;
+  // outline:blue solid 1px;
+}

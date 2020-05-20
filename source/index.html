@@ -28,7 +28,7 @@
         <li class="site-list__item"><a href="#" class="site-list__link">Видео</a></li>
         <li class="site-list__item"><a href="#" class="site-list__link">Тесты</a></li>
         <li class="site-list__item"><a href="#" class="site-list__link">Серии</a></li>
-        <li class="site-list__item"><a class="site-list__link site-list__link--active">Рубрики</a></li>
+        <li class="site-list__item"><a href="#" class="site-list__link">Рубрики</a></li>
       </ul>
       <button class="site-nav__search site-nav__search--mobile">
         <span class="site-nav__search-tablet">Поиск</span>
@@ -36,57 +36,185 @@
     </nav>
   </header>
   <main class="page-main">
-    <h1 class="visualy-hidden">Рубрики</h1>
-    <section class="rubrics">
-      <h2 class="rubrics__heading">Сегодня в выпуске</h2>
-      <div class="rubrics__list">
-        <article class="rubrics__item rubrics__item--main">
-          <a href="#" class="rubrics__button button">Сделай сам</a>
-          <h3 class="rubrics__name">Блокнот с осциллографом и генератором частот (звуковой картой)</h3>
-          <p class="rubrics__text">Решил немного написать про свою поделку. Несколько раз попадались разнообразные diy линейки. Захотелось сделать себе что-то подобное, многофункциональное. Форм-фактор линейки мне не очень подходил, решил сделать в виде блокнота.</p>
-          <div class="rubrics__author-info">
-            <cite class="rubrics__author">GMaksim2008 /</cite>
-            <time class="rubrics__time">22 марта, 12:15</time>
+    <div class="page-main__wrapper">
+      <div class="page-main__wrapper-left">
+        <section class="articles-today">
+          <h2 class="articles-today__heading">Сегодня в выпуске</h2>
+          <div class="articles-today__list">
+            <article class="articles-today__item articles-today__item-1">
+              <a href="#" class="articles-today__link hover-link">
+                <span class="articles-today__topic">Сделай сам</span>
+                <h3 class="articles-today__name">Блокнот с осциллографом и генератором частот (звуковой картой)</h3>
+                <p class="articles-today__text">Решил немного написать про свою поделку. Несколько раз попадались разнообразные diy линейки. Захотелось сделать себе что-то подобное, многофункциональное. Форм-фактор линейки мне не очень подходил, решил сделать в виде блокнота.</p>
+                <div class="articles-today__info-wrapper">
+                  <div class="articles-today__author-info">
+                    <cite class="articles-today__author">GMaksim2008 /</cite>
+                    <time class="articles-today__time">22 марта, 12:15</time>
+                  </div>
+                  <div class="articles-today__extra-info info-icons">
+                    <span class="info-icons__icon">4567</span>
+                    <span class="info-icons__icon">12</span>
+                    <span class="info-icons__icon">45</span>
+                    <span class="info-icons__icon">678</span>
+                  </div>
+                </div>
+              </a>
+            </article>
+            <article class="articles-today__item articles-today__item-2">
+              <a href="#" class="articles-today__link hover-link">
+                <span class="articles-today__topic">Железо</span>
+                <h3 class="articles-today__name">Древности: удаленная работа на устройствах 1998 года</h3>
+                <p class="articles-today__text">Поговорим о старых железках. В 2020 году у нас есть множество инструментов удаленной работы — от традиционной электронной почты, до весьма совершенных мессенджеров, веб-конференций с... </p>
+                <div class="articles-today__info-wrapper">
+                  <div class="articles-today__author-info">
+                    <cite class="articles-today__author">f15 /</cite>
+                    <time class="articles-today__time">22 марта, 12:15</time>
+                  </div>
+                  <div class="articles-today__extra-info info-icons">
+                    <span class="info-icons__icon">4567</span>
+                    <span class="info-icons__icon">12</span>
+                    <span class="info-icons__icon">45</span>
+                    <span class="info-icons__icon">678</span>
+                  </div>
+                </div>
+              </a>
+            </article>
+            <article class="articles-today__item articles-today__item-3">
+              <a href="#" class="articles-today__link hover-link">
+                <span class="articles-today__topic">Железо</span>
+                <h3 class="articles-today__name">Кластер Elasticsearch на 200 ТБ+</h3>
+                <p class="articles-today__text"></p>
+                <div class="articles-today__info-wrapper">
+                  <div class="articles-today__author-info">
+                    <cite class="articles-today__author">entropicus /</cite>
+                    <time class="articles-today__time">22 марта, 12:15</time>
+                  </div>
+                  <div class="articles-today__extra-info info-icons">
+                    <span class="info-icons__icon">4567</span>
+                    <span class="info-icons__icon">12</span>
+                    <span class="info-icons__icon">45</span>
+                    <span class="info-icons__icon">678</span>
+                  </div>
+                </div>
+              </a>
+            </article>
           </div>
-          <div class="rubrics__extra-info">
-            <span class="rubrics__icon">4567</span>
-            <span class="rubrics__icon">12</span>
-            <span class="rubrics__icon">45</span>
-            <span class="rubrics__icon">678</span>
+          <p class="articles-today__final-text">На сегодня это всё! Приходите завтра почитать <b class="articles-today__bold-text">об эффективной работе из дома, о том как Crash Bandicoot взламывал Playstation, о том с чего начиналось IT и об анатомии таблиц LuaJIT и особенностях их использования.</b></p>
+        </section>
+        <section class="articles-best">
+          <div class="articles-best__slider slider">
+            <ul class="articles-best__periods">
+              <li class="articles-best__period articles-best__period--current">
+                <button class="articles-best__button">Лучшее за месяц</button></li>
+              <li class="articles-best__period">
+                <button class="articles-best__button">Лучшее за год</button></li>
+              <li class="articles-best__period">
+                <button class="articles-best__button">Лучшее за все время</button></li>
+            </ul>
+            <div class="articles-best__slider-buttons slider__buttons">
+              <button class="slider__button slider__button--prev"></button>
+              <button class="slider__button slider__button--next"></button>
+            </div>
+            <div class="articles-best__articles slider__list">
+              <article class="articles-best__article slider__item">
+                <a href="#" class="articles-best__link hover-link">
+                  <span class="articles-best__heading">AI против COVID-19: опыт Хубэя и Флориды</span>
+                  <div class="articles-best__extra-info info-icons">
+                    <span class="info-icons__icon">4567</span>
+                    <span class="info-icons__icon">12</span>
+                    <span class="info-icons__icon">45</span>
+                    <span class="info-icons__icon">678</span>
+                  </div>
+                </a>
+              </article>
+              <article class="articles-best__article slider__item">
+                <a href="#" class="articles-best__link hover-link">
+                  <span class="articles-best__heading">Биологические проблемы багфикса</span>
+                  <div class="articles-best__extra-info info-icons">
+                    <span class="info-icons__icon">4567</span>
+                    <span class="info-icons__icon">12</span>
+                    <span class="info-icons__icon">45</span>
+                    <span class="info-icons__icon">678</span>
+                  </div>
+                </a>
+              </article>
+              <article class="articles-best__article slider__item">
+                <a href="#" class="articles-best__link hover-link">
+                  <span class="articles-best__heading">Цели дня как инструмент управления командой</span>
+                  <div class="articles-best__extra-info info-icons">
+                    <span class="info-icons__icon">4567</span>
+                    <span class="info-icons__icon">12</span>
+                    <span class="info-icons__icon">45</span>
+                    <span class="info-icons__icon">678</span>
+                  </div>
+                </a>
+              </article>
+            </div>
           </div>
-        </article>
-        <article class="rubrics__item">
-          <a href="#" class="rubrics__button button">Железо</a>
-          <h3 class="rubrics__name">Древности: удаленная работа на устройствах 1998 года</h3>
-          <p class="rubrics__text">Поговорим о старых железках. В 2020 году у нас есть множество инструментов удаленной работы — от традиционной электронной почты, до весьма совершенных мессенджеров, веб-конференций с... </p>
-          <div class="rubrics__author-info">
-            <cite class="rubrics__author">f15 /</cite>
-            <time class="rubrics__time">22 марта, 12:15</time>
-          </div>
-          <div class="rubrics__extra-info">
-            <span class="rubrics__icon">4567</span>
-            <span class="rubrics__icon">12</span>
-            <span class="rubrics__icon">45</span>
-            <span class="rubrics__icon">678</span>
-          </div>
-        </article>
-        <article class="rubrics__item">
-          <a href="#" class="rubrics__button button">Железо</a>
-          <h3 class="rubrics__name">Кластер Elasticsearch на 200 ТБ+</h3>
-          <p class="rubrics__text"></p>
-          <div class="rubrics__author-info">
-            <cite class="rubrics__author">entropicus /</cite>
-            <time class="rubrics__time">22 марта, 12:15</time>
-          </div>
-          <div class="rubrics__extra-info">
-            <span class="rubrics__icon">4567</span>
-            <span class="rubrics__icon">12</span>
-            <span class="rubrics__icon">45</span>
-            <span class="rubrics__icon">678</span>
-          </div>
-        </article>
+        </section>
       </div>
-    </section>
+      <div class="page-main__wrapper-right">
+        <aside class="aside">
+          <article class="aside__block block">
+            <div class="block__header">
+              <h4 class="block__heading">Серии</h4>
+              <a href="#" class="block__all">Все серии</a>
+            </div>
+            <div class="block__series series-block">
+              <span class="series-block__topic">HARDWARE против заблуждений</span>
+              <ul class="series-block__list">
+                <li class="series-block__item"><a href="#" class="series-block__link">Мифы в IT-образовании</a></li>
+                <li class="series-block__item"><a href="#" class="series-block__link">У iPhone нет шансов, а компьютеры не нужны. Топ-8 самых вопиющих<br> IT-заблуждений в истории</a></li>
+                <li class="series-block__item"><a href="#" class="series-block__link">У iPhone нет шансов, а компьютеры не нужны. Топ-8 самых вопиющих<br> IT-заблуждений в истории</a></li>
+              </ul>
+            </div>
+            <a href="#" class="block__button">Читать 27 статей</a>
+          </article>
+          <article class="aside__block block">
+            <div class="block__header">
+              <h4 class="block__heading">Тесты</h4>
+              <a href="#" class="block__all">Все тесты</a>
+            </div>
+            <div class="block__test test-block">
+              <a href="#" class="test-block__link hover-link">
+                <span class="test-block__topic">Тест: Как хорошо вы знаете HTML и CSS?</span>
+                <div class="test-block__icons info-icons">
+                  <span class="info-icons__icon">4567</span>
+                  <span class="info-icons__icon">12</span>
+                  <span class="info-icons__icon">45</span>
+                  <span class="info-icons__icon">678</span>
+                </div>
+              </a>
+            </div>
+            <a href="#" class="block__button">Пройти тест</a>
+          </article>
+          <article class="aside__block block">
+            <div class="block__header">
+              <h4 class="block__heading">Видео</h4>
+              <a href="#" class="block__all">Все видео</a>
+            </div>
+            <div class="block__video video-block">
+              <a href="#" class="video-block__link hover-link">
+                <div class="video-block__play"></div>
+              </a>
+              <span class="video-block__topic">Учим HTML за 1 Час!</span>
+            </div>
+          </article>
+          <article class="aside__block block">
+            <div class="block__header">
+              <h4 class="block__heading">Новости</h4>
+              <a href="#" class="block__all">Все новости</a>
+            </div>
+            <div class="block__news news-block">
+              <time class="news-block__data">24 апреля
+                <span class="news-block__time">15:00</span>
+              </time>
+              <p class="news-block__text">NVIDIA расширяет бесплатный 90-дневный доступ к ПО для поддержки удаленных работников</p>
+            </div>
+          </article>
+        </aside>
+      </div>
+    </div>
   </main>
 </body>
 </html>

@@ -1,0 +1,143 @@
+.articles-today__heading {
+  position: absolute;
+  top: 38px;
+  left: 70px;
+  font-family: "PT Sans Caption";
+  font-size: 28px;
+  letter-spacing: -0.02em;
+}
+
+.articles-today__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.articles-today__item {
+  box-sizing: border-box;
+  min-height: 492px;
+  margin-bottom: 25px;
+  
+  color: #ffffff;
+  background-color: #000000;
+  background-position: center;
+  background-size: cover;
+}
+
+.articles-today__item-1 {
+  width: 100%;
+  background-image: url(../../img/img-article1.png);
+
+  & .articles-today__link {
+    padding-top: 142px;
+  }
+
+  & .articles-today__info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+  }
+}
+
+.articles-today__item-2 {
+  width: 65.52%;
+  margin-right: 20px;
+  background-image: url(../../img/img-article2.png);
+
+  & .articles-today__text {
+    margin-top: 64px;
+    max-width: 450px;
+  }
+
+  & .articles-today__info-wrapper {
+    margin-top: 40px;
+  }
+
+  & .articles-today__author-info {
+    margin-bottom: 5px;
+  }
+}
+
+.articles-today__item-3 {
+  width: 31.3%;
+  margin-left: auto;
+  background-image: url(../../img/img-article3.png);
+
+  & .articles-today__info-wrapper {
+    margin-top: 170px;
+    margin-left: -2px;
+  }
+
+  & .articles-today__author-info {
+    margin-bottom: 5px;
+  }
+}
+
+.articles-today__link {
+  min-height: 476px;
+  padding: 77px 12px 22px 12px;
+}
+
+.articles-today__topic {
+  display: inline-block;
+  width: 118px;
+  padding: 3px 0;
+  font-family: "Brutal", Arial ,sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background-color: #FAAF3F;
+  border-radius: 2px;
+}
+
+.articles-today__name {
+  margin-top: 40px;
+  max-width: 558px;
+  font-family: "Brutal", Arial ,sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.articles-today__text {
+  margin-top: 45px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.articles-today__author {
+  margin-right: -2px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.articles-today__time {
+  font-size: 10px;
+}
+
+.articles-today__final-text {
+  margin-left: -2px;
+  margin-top: 2px;
+  font-size: 17px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.articles-today__bold-text {
+  font-weight: bold;
+}
+
+// @media (max-width:1100px) {
+
+// }
+
+
+
+
+
+
