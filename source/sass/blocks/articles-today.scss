@@ -1,7 +1,7 @@
 .articles-today__heading {
   position: absolute;
   top: 38px;
-  left: 70px;
+  margin-left: -2px;
   font-family: "PT Sans Caption";
   font-size: 28px;
   letter-spacing: -0.02em;
@@ -19,7 +19,7 @@
   
   color: #ffffff;
   background-color: #000000;
-  background-position: center;
+  background-position-x: center;
   background-size: cover;
 }
 
@@ -32,10 +32,15 @@
   }
 
   & .articles-today__info-wrapper {
+    position: static;
     display: flex;
     justify-content: space-between;
     margin-top: 45px;
   }
+
+  & .articles-today__author-info {
+      margin-bottom: 0;
+    }
 }
 
 .articles-today__item-2 {
@@ -47,14 +52,6 @@
     margin-top: 64px;
     max-width: 450px;
   }
-
-  & .articles-today__info-wrapper {
-    margin-top: 40px;
-  }
-
-  & .articles-today__author-info {
-    margin-bottom: 5px;
-  }
 }
 
 .articles-today__item-3 {
@@ -63,18 +60,23 @@
   background-image: url(../../img/img-article3.png);
 
   & .articles-today__info-wrapper {
-    margin-top: 170px;
     margin-left: -2px;
-  }
-
-  & .articles-today__author-info {
-    margin-bottom: 5px;
   }
 }
 
 .articles-today__link {
   min-height: 476px;
+  margin: 8px;
   padding: 77px 12px 22px 12px;
+}
+
+.articles-today__info-wrapper {
+  position: absolute;
+  bottom: 25px;
+}
+
+.articles-today__author-info {
+  margin-bottom: 5px;
 }
 
 .articles-today__topic {
@@ -101,6 +103,7 @@
   line-height: 30px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.75);
 }
 
 .articles-today__text {
@@ -125,16 +128,173 @@
   margin-top: 2px;
   font-size: 17px;
   line-height: 24px;
-  color: #333333;
+  color: $block-text-color;
 }
 
 .articles-today__bold-text {
   font-weight: bold;
 }
 
-// @media (max-width:1100px) {
+@media (max-width:1100px) {
+  .articles-today__item-1 {
+    min-height: 386px;
+    background-image: url(../../img/tablet-goriz-article1.png);
 
-// }
+    & .articles-today__extra-info {
+      padding-top: 0;
+      margin-right: -1px;
+    }
+  }
+
+  .articles-today__item-2 {
+    width: 354px;
+
+    & .articles-today__text {
+      display: none;
+    }
+  }
+
+  .articles-today__item-3 {
+    width: 354px;
+    background-image: url(../../img/tablet-goriz-article3.png);
+
+    & .articles-today__info-wrapper {
+      margin-left: 0;
+    }
+  }
+
+  .articles-today__heading {
+    top: 29px;
+  }
+
+  .articles-today__item {
+    max-height: 492px;
+  }
+}
+
+@media (max-width:1020px) {
+  .articles-today__heading {
+    top: 34px;
+    margin-left: 14px;
+  }
+
+  .articles-today__item {
+    width: 100%;
+    min-height: 386px;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .articles-today__item-1 {
+    background-image: url(../../img/tablet-vert-article1.png);
+
+    & .articles-today__link {
+      padding-top: 64px;
+    }
+
+    & .articles-today__info-wrapper {
+      position: absolute;
+      display: block;
+    }
+
+    .articles-today__author-info {
+      margin-bottom: 5px;
+    }
+  }
+
+  .articles-today__item-2 {
+    background-image: url(../../img/tablet-vert-article2.png);
+  }
+
+  .articles-today__item-3 {
+    background-image: url(../../img/tablet-vert-article3.png);
+  }
+
+  .articles-today__link  {
+    min-height: 370px;
+    width: calc(100% - 16px);
+    padding-top: 64px;
+    padding-left: 11px;
+  }
+
+  .articles-today__name {
+    margin-top: 25px;
+  }
+
+  .articles-today__text {
+    display: none;
+  }
+
+  .articles-today__author-info {
+    margin-bottom: 2px;
+  }
+
+  .articles-today__info-wrapper {
+    bottom: 10px;
+    left: 23px;
+  }
+
+  .articles-today__final-text {
+    padding: 0 16px;
+    margin-top: 12px;
+  }
+}
+
+@media (max-width:570px) {
+  .articles-today__heading {
+    top: 22px;
+    margin-left: 11px;
+    font-size: 20px;
+  }
+
+  .articles-today__item-1 {
+    background-image: url(../../img/mobile-article1.png);
+
+    .articles-today__link  {
+      padding-top: 108px;
+    }
+
+    .articles-today__author-info {
+      margin-bottom: 8px;
+    }
+  }
+
+  .articles-today__item-3 {
+    background-image: url(../../img/mobile-article3.png);
+  }
+
+
+  .articles-today__link  {
+    margin: 6px;
+    padding: 108px 14px 24px 8px;
+    min-height: 374px;
+    width: calc(100% - 12px);
+  }
+
+  .articles-today__topic {
+    width: 104px;
+  }
+
+  .articles-today__name {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .articles-today__info-wrapper {
+    bottom: 23px;
+    left: 8px;
+  }
+
+  .articles-today__author-info {
+    margin-bottom: 5px;
+  }
+
+  .articles-today__final-text {
+    padding: 0px 19px;
+  }
+}
+
+
 
 
 

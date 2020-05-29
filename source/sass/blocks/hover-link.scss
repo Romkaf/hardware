@@ -2,7 +2,6 @@
   position: relative;
   display: inline-block;
   box-sizing: border-box;
-  margin: 8px;
   text-decoration: none;
   color: #ffffff;
   outline: none!important;
@@ -37,5 +36,11 @@
   &:focus::after {
     opacity: 1;
     transition: opacity 0.3s linear;
+  }
+}
+
+@media (max-width:570px) {
+  .hover-link::after {
+    background-size: 15px;
   }
 }
