@@ -164,7 +164,7 @@ img {
     position: static;
     margin: auto;
     margin-left: 71px;
-    background: url(../../img/component-logo-mobile.png) no-repeat;
+    background: url(../img/component-logo-mobile.png) no-repeat;
     background-position: center; }
   .page-header__logo img {
     width: 35px;
@@ -220,7 +220,7 @@ img {
           box-sizing: border-box;
   width: 15px;
   height: 14px;
-  background: url(../../img/search.png) no-repeat;
+  background: url(../img/search.png) no-repeat;
   background-color: transparent;
   border: none; }
   .site-nav__search:focus {
@@ -281,7 +281,7 @@ img {
     top: 17px;
     width: 15px;
     height: 14px;
-    background: url(../../img/search-mobile.png) no-repeat; }
+    background: url(../img/search-mobile.png) no-repeat; }
     .site-nav__search--mobile:focus {
       outline-color: #ffffff; }
   .site-nav__search-tablet {
@@ -473,7 +473,7 @@ img {
 
 .articles-today__item-1 {
   width: 100%;
-  background-image: url(../../img/img-article1.png); }
+  background-image: url(../img/img-article1.png); }
   .articles-today__item-1 .articles-today__link {
     padding-top: 142px; }
   .articles-today__item-1 .articles-today__info-wrapper {
@@ -493,7 +493,7 @@ img {
 .articles-today__item-2 {
   width: 65.52%;
   margin-right: 20px;
-  background-image: url(../../img/img-article2.png); }
+  background-image: url(../img/img-article2.png); }
   .articles-today__item-2 .articles-today__text {
     margin-top: 64px;
     max-width: 450px; }
@@ -501,7 +501,7 @@ img {
 .articles-today__item-3 {
   width: 31.3%;
   margin-left: auto;
-  background-image: url(../../img/img-article3.png); }
+  background-image: url(../img/img-article3.png); }
   .articles-today__item-3 .articles-today__info-wrapper {
     margin-left: -2px; }
 
@@ -569,7 +569,7 @@ img {
 @media (max-width: 1100px) {
   .articles-today__item-1 {
     min-height: 386px;
-    background-image: url(../../img/tablet-goriz-article1.png); }
+    background-image: url(../img/tablet-goriz-article1.png); }
     .articles-today__item-1 .articles-today__extra-info {
       padding-top: 0;
       margin-right: -1px; }
@@ -579,7 +579,7 @@ img {
       display: none; }
   .articles-today__item-3 {
     width: 354px;
-    background-image: url(../../img/tablet-goriz-article3.png); }
+    background-image: url(../img/tablet-goriz-article3.png); }
     .articles-today__item-3 .articles-today__info-wrapper {
       margin-left: 0; }
   .articles-today__heading {
@@ -597,7 +597,7 @@ img {
     margin-right: 0;
     margin-bottom: 15px; }
   .articles-today__item-1 {
-    background-image: url(../../img/tablet-vert-article1.png); }
+    background-image: url(../img/tablet-vert-article1.png); }
     .articles-today__item-1 .articles-today__link {
       padding-top: 64px; }
     .articles-today__item-1 .articles-today__info-wrapper {
@@ -606,9 +606,9 @@ img {
     .articles-today__item-1 .articles-today__author-info {
       margin-bottom: 5px; }
   .articles-today__item-2 {
-    background-image: url(../../img/tablet-vert-article2.png); }
+    background-image: url(../img/tablet-vert-article2.png); }
   .articles-today__item-3 {
-    background-image: url(../../img/tablet-vert-article3.png); }
+    background-image: url(../img/tablet-vert-article3.png); }
   .articles-today__link {
     min-height: 370px;
     width: -webkit-calc(100% - 16px);
@@ -634,13 +634,13 @@ img {
     margin-left: 11px;
     font-size: 20px; }
   .articles-today__item-1 {
-    background-image: url(../../img/mobile-article1.png); }
+    background-image: url(../img/mobile-article1.png); }
     .articles-today__item-1 .articles-today__link {
       padding-top: 108px; }
     .articles-today__item-1 .articles-today__author-info {
       margin-bottom: 8px; }
   .articles-today__item-3 {
-    background-image: url(../../img/mobile-article3.png); }
+    background-image: url(../img/mobile-article3.png); }
   .articles-today__link {
     margin: 6px;
     padding: 108px 14px 24px 8px;
@@ -691,16 +691,16 @@ img {
     width: 20px;
     height: 20px; }
   .info-icons__icon:nth-child(1)::before {
-    content: url(../../img/views.png);
+    content: url(../img/views.png);
     left: 1px;
     top: 1px; }
   .info-icons__icon:nth-child(2)::before {
-    content: url(../../img/likes.png);
+    content: url(../img/likes.png);
     left: 1px; }
   .info-icons__icon:nth-child(3)::before {
-    content: url(../../img/reviews.png); }
+    content: url(../img/reviews.png); }
   .info-icons__icon:nth-child(4)::before {
-    content: url(../../img/repost.png);
+    content: url(../img/repost.png);
     left: 4px; }
 
 .hover-link {
@@ -720,7 +720,7 @@ img {
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: url(../../img/corner.png), url(../../img/corner2.png), url(../../img/corner3.png), url(../../img/corner4.png);
+    background-image: url(../img/corner.png), url(../img/corner2.png), url(../img/corner3.png), url(../img/corner4.png);
     background-repeat: no-repeat;
     background-position: 0% 0%,100% 0%,100% 100%,0% 100%;
     background-size: 20px;
@@ -793,7 +793,7 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  overflow: scroll; }
+  overflow: hidden; }
 
 .slider__item {
   -webkit-flex-shrink: 0;
@@ -848,7 +848,7 @@ img {
   margin-right: 20px; }
 
 .articles-best__article:nth-child(1) {
-  background-image: url(../../img/little-article-1.png); }
+  background-image: url(../img/little-article-1.png); }
   .articles-best__article:nth-child(1) .articles-best__heading {
     margin-top: -6px;
     font-family: "Brutal", Arial, sans-serif;
@@ -857,13 +857,13 @@ img {
     margin-left: -1px; }
 
 .articles-best__article:nth-child(2) {
-  background-image: url(../../img/little-article-2.png); }
+  background-image: url(../img/little-article-2.png); }
   .articles-best__article:nth-child(2) .articles-best__extra-info {
     margin-left: -1px; }
 
 .articles-best__article:nth-child(3) {
   margin-right: 0;
-  background-image: url(../../img/little-article-3.png); }
+  background-image: url(../img/little-article-3.png); }
 
 .articles-best__link {
   min-height: 161px;
@@ -1113,7 +1113,7 @@ img {
 
 .test-block {
   background-color: rgba(0, 0, 0, 0.5);
-  background: url(../../img/test.png) center no-repeat;
+  background: url(../img/test.png) center no-repeat;
   background-size: cover; }
 
 .test-block__link {
@@ -1139,7 +1139,7 @@ img {
   width: 214px;
   min-height: 146px;
   background-color: rgba(0, 0, 0, 0.2);
-  background: url(../../img/html5.png) center no-repeat;
+  background: url(../img/html5.png) center no-repeat;
   background-size: cover; }
 
 .video-block__link {

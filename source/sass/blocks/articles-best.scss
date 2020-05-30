@@ -54,7 +54,7 @@
 }
 
 .articles-best__article:nth-child(1) {
-  background-image: url(../../img/little-article-1.png);
+  background-image: url(../img/little-article-1.png);
 
   & .articles-best__heading {
     margin-top: -6px;
@@ -68,7 +68,7 @@
 }
 
 .articles-best__article:nth-child(2) {
-  background-image: url(../../img/little-article-2.png);
+  background-image: url(../img/little-article-2.png);
 
   & .articles-best__extra-info {
     margin-left: -1px;
@@ -77,7 +77,7 @@
 
 .articles-best__article:nth-child(3) {
   margin-right: 0;
-  background-image: url(../../img/little-article-3.png);
+  background-image: url(../img/little-article-3.png);
 }
 
 .articles-best__link {

@@ -25,7 +25,7 @@
 
 .articles-today__item-1 {
   width: 100%;
-  background-image: url(../../img/img-article1.png);
+  background-image: url(../img/img-article1.png);
 
   & .articles-today__link {
     padding-top: 142px;
@@ -46,7 +46,7 @@
 .articles-today__item-2 {
   width: 65.52%;
   margin-right: 20px;
-  background-image: url(../../img/img-article2.png);
+  background-image: url(../img/img-article2.png);
 
   & .articles-today__text {
     margin-top: 64px;
@@ -57,7 +57,7 @@
 .articles-today__item-3 {
   width: 31.3%;
   margin-left: auto;
-  background-image: url(../../img/img-article3.png);
+  background-image: url(../img/img-article3.png);
 
   & .articles-today__info-wrapper {
     margin-left: -2px;
@@ -138,7 +138,7 @@
 @media (max-width:1100px) {
   .articles-today__item-1 {
     min-height: 386px;
-    background-image: url(../../img/tablet-goriz-article1.png);
+    background-image: url(../img/tablet-goriz-article1.png);
 
     & .articles-today__extra-info {
       padding-top: 0;
@@ -156,7 +156,7 @@
 
   .articles-today__item-3 {
     width: 354px;
-    background-image: url(../../img/tablet-goriz-article3.png);
+    background-image: url(../img/tablet-goriz-article3.png);
 
     & .articles-today__info-wrapper {
       margin-left: 0;
@@ -186,7 +186,7 @@
   }
 
   .articles-today__item-1 {
-    background-image: url(../../img/tablet-vert-article1.png);
+    background-image: url(../img/tablet-vert-article1.png);
 
     & .articles-today__link {
       padding-top: 64px;
@@ -203,11 +203,11 @@
   }
 
   .articles-today__item-2 {
-    background-image: url(../../img/tablet-vert-article2.png);
+    background-image: url(../img/tablet-vert-article2.png);
   }
 
   .articles-today__item-3 {
-    background-image: url(../../img/tablet-vert-article3.png);
+    background-image: url(../img/tablet-vert-article3.png);
   }
 
   .articles-today__link  {
@@ -248,7 +248,7 @@
   }
 
   .articles-today__item-1 {
-    background-image: url(../../img/mobile-article1.png);
+    background-image: url(../img/mobile-article1.png);
 
     .articles-today__link  {
       padding-top: 108px;
@@ -260,7 +260,7 @@
   }
 
   .articles-today__item-3 {
-    background-image: url(../../img/mobile-article3.png);
+    background-image: url(../img/mobile-article3.png);
   }
 
 
