@@ -26,12 +26,12 @@
   color: #000000;
   text-decoration: none;
   border-radius: 2px;
-  transition: color  0.3s linear;
+  transition:  0.1s linear;
 
   @include hoverSupport { 
     background-color: #FAAF3F;
     color: #fff;  
-    transition:  0.3s linear;
+    transition:  0.1s linear;
   }
 
   &:focus {

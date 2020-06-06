@@ -16,12 +16,16 @@
 .page-header__logo {
   flex-shrink: 0;
   margin-left: 43px; 
-  margin-top: 11px;
+  margin-top: 16px;
 }
 
-.page-header__logo img {
+.page-header__logo-icon {
   width: 378px;
   height: 89px;
+}
+
+.logo-mobile {
+  display: none;
 }
 
 .page-header__text {
@@ -92,15 +96,23 @@
   
   .page-header__logo {
     position: static;
+    height: 34px;
     margin: auto;
     margin-left: 71px;
-    background: url(../img/component-logo-mobile.png) no-repeat;
-    background-position: center;
+    background: url(../img/logo-mobile-H.svg) center no-repeat;
   }
 
-  .page-header__logo img {
+  .page-header__logo-icon {
     width: 35px;
     height: 34px;
+  }
+
+  .logo-desktop {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: block;
   }
 
   .page-header__login {

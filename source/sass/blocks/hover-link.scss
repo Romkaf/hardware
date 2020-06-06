@@ -23,19 +23,19 @@
     background-repeat: no-repeat;
     background-position: 0% 0%,100% 0%,100% 100%,0% 100%;
     background-size: 20px;
-    transition: opacity 0.3s linear;
+    transition: opacity 0.1s linear;
   }
 
   @include hoverSupport { 
     &::after {
       opacity: 1;
-      transition: opacity 0.3s linear;
+      transition: opacity 0.1s linear;
     }
   }
 
   &:focus::after {
     opacity: 1;
-    transition: opacity 0.3s linear;
+    transition: opacity 0.1s linear;
   }
 }
 

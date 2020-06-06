@@ -6,15 +6,16 @@
   <title>сайт Hardware</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./img/Favicon.png" type="image/x-icon">
 </head>
 <body class="page-body">
   <header class="page-header">
     <div class="page-header__wrapper">
       <a class="page-header__logo">
-        <picture>
-          <source media="(max-width:500px)" srcset="./img/small-logo.png">
-          <img class="page-header__logo-image" src="./img/big-logo.png" alt="Логотип сайта">
-        </picture>
+        <svg class="page-header__logo-icon" width="378" height="89">
+          <use class="logo-desktop" xlink:href="./img/sprite.svg#logo-desktop"></use>
+          <use class="logo-mobile" xlink:href="./img/sprite.svg#logo-mobile"></use>
+        </svg>
       </a>
       <p class="page-header__text">Здесь думающие ​люди ​делятся ​уникальным ​​опытом. ​​Здесь будет ​​одинаково ​интересно ​программистам ​и журналистам, ​​админам ​и рекламщикам, ​аналитикам ​и дизайнерам, ​менеджерам ​высшего ​и среднего ​звена, ​владельцам ​крупных ​компаний ​и небольших ​фирм, ​а также ​всем ​тем, ​для&nbsp;кого ​IT — ​это не просто ​две буквы ​алфавита.</p>
       <a href="#" class="page-header__login">Вход</a>
