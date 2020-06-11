@@ -56,15 +56,12 @@
   display: none;
 }
 
-@media (max-width:1024px) {
-  .site-nav__toggle {
-    margin-left: 40px;
-    margin-right: 6px;
-  }
-
+@include media-tablet-horizontal {
   .site-nav__toggle {
     width: 12px;
     height: 17px;
+    margin-left: 40px;
+    margin-right: 6px;
 
     &::before {
       width: 12px;
@@ -78,7 +75,7 @@
   }
 }
 
-@media (max-width:925px) {
+@include media-tablet-vertical {
   .site-nav__toggle--mobile {
     position: absolute;
     width: 20.5px;
@@ -121,7 +118,7 @@
   }
 }
 
-@media (max-width:500px) {
+@include media-mobile {
   .site-nav__search--mobile {
     display: inline-block;
     position: absolute;

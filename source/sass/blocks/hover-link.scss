@@ -39,7 +39,7 @@
   }
 }
 
-@media (max-width:570px) {
+@include media-mobile {
   .hover-link::after {
     background-size: 15px;
   }

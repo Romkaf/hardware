@@ -23,7 +23,7 @@
   flex-shrink: 0;
 }
 
-@media (max-width:1100px) {
+@include media-tablet-horizontal {
   .page-main__wrapper {
     padding-top: 94px;
     padding-right: calc(50% - 501px);
@@ -35,7 +35,7 @@
   }
 }
 
-@media (max-width:1020px) {
+@include media-tablet-vertical {
   .page-main__wrapper {
     display: block;
     padding: 97px 0 0;
@@ -51,7 +51,7 @@
   }
 }
 
-@media (max-width:570px) {
+@include media-mobile {
   .page-main__wrapper {
     padding-top: 66px;
   }

@@ -55,7 +55,7 @@
   }
 }
 
-@media (max-width:1024px) {
+@include media-tablet-horizontal {
   .page-header__logo {
     margin-left: 27px;
   }
@@ -70,7 +70,7 @@
   }
 }
 
-@media (max-width:925px) {
+@include media-tablet-vertical {
   .page-header__logo {
     flex-shrink: 1;
     position: relative;
@@ -89,7 +89,7 @@
   }
 }
 
-@media (max-width:500px) {
+@include media-mobile {
   .page-header__wrapper {
     height: 48px;
   }
