@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   height: 173px;
-  background-color: #223036;
+  background-color: $dark-blue;
 }
 
 .page-header__logo {
@@ -34,7 +34,7 @@
   font-family: "PT Sans Caption", Arial, sans-serif;
   font-weight: normal;
   font-size: 14px;
-  color: #ffffff;
+  color: $white;
 }
 
 .page-header__login {
@@ -46,11 +46,11 @@
   line-height: 10px;
   font-weight: bold;
   text-decoration: none;
-  color: #ffffff;
+  color: $white;
   outline: none;
 
   &:focus {
-    outline: solid 1px #ffffff;
+    outline: solid 1px $white;
     outline-offset: 4px;
   }
 }

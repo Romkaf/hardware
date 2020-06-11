@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 20px;
   padding-right: 17px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 .block__header {
@@ -20,8 +20,8 @@
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: #FFFFFF;
-  background-color: #333333;
+  color: $white;
+  background-color: $light-black;
   border-radius: 2px;
 }
 
@@ -33,7 +33,7 @@
   font-size: 14px;
   line-height: 21px;  
   text-decoration: none;
-  color:#0776D2;
+  color: $blue;
 
   @include hoverSupport {
     text-decoration: underline;
@@ -51,14 +51,14 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
-  color: $block-text-color;
+  color: $light-black;
 }
 
 .series-block__list {
   position: relative;
   padding-top: 6px; ;
   margin-top: 19px;
-  border-left: 1px solid #828282;
+  border-left: 1px solid $grey;
 
   &::before,
   &::after {
@@ -71,7 +71,7 @@
     top: 0;
     left: -9px;
     height: 9px;
-    background: linear-gradient(180.15deg, rgba(255, 255, 255, 0) 0.23%, #FFFFFF 126.37%);
+    background: linear-gradient(180.15deg, rgba(255, 255, 255, 0) 0.23%, $white 126.37%);
     transform: matrix(1, 0, 0, -1, 0, 0);
   }
 
@@ -79,7 +79,7 @@
     bottom: -11px;
     left: -9px;
     height: 52px;
-    background: linear-gradient(180.86deg, rgba(255, 255, 255, 0) 0.23%, #FFFFFF 74.8%);
+    background: linear-gradient(180.86deg, rgba(255, 255, 255, 0) 0.23%, $white 74.8%);
   }
 }
 
@@ -94,11 +94,11 @@
   font-size: 15px;
   line-height: 21px;
   text-decoration: none;
-  color: $block-text-color;
+  color: $light-black;
   transition: 0.1s linear;
 
   @include hoverSupport {
-    color: #FAAF3F;
+    color: $orange;
     transition: 0.1s linear;
   }
 
@@ -110,13 +110,13 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #828282;
+    background-color: $grey;
     transition: 0.1s linear;
   }
 
   @include hoverSupport {
     &::before {
-      background-color: #FAAF3F;
+      background-color: $orange;
       transition: 0.1s linear;
     }
   }
@@ -126,24 +126,24 @@
   display: inline-block;
   width: 214px;
   height: 32px;
-  font-family:"Brutal", Arial, sans-serif;
+  font-family: "Brutal", Arial, sans-serif;
   font-size: 14px;
   line-height: 32px;
   text-align: center;
-  color: #FFFFFF;
+  color: $white;
   letter-spacing: 0.02em;
   text-decoration: none;
-  background-color: #FAAF3F;
+  background-color: $orange;
   border-radius: 2px;
   transition: 0.2s linear;
   
   @include hoverSupport {
-    background-color: #F49F21;
+    background-color: $dark-orange;
     transition: 0.1s linear;
   }
 
   &:focus {
-    background-color: #F49F21;
+    background-color: $dark-orange;
     transition: 0.1s linear;
   }
 }
@@ -155,7 +155,7 @@
 }
 
 .test-block {
-  background-color:  rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   background: url(../img/test.png) center no-repeat;
   background-size: cover;
 }
@@ -204,7 +204,7 @@
   transform: translate(-50%, -50%);
   width: 30px;
   height: 30px; 
-  border: 1px solid #FFFFFF;
+  border: 1px solid $white;
   border-radius: 50%;
 
   &::after {
@@ -212,7 +212,7 @@
     position: absolute;
     top: 34%;
     left: 39%;
-    border-left: 9px solid #FFFFFF;
+    border-left: 9px solid $white;
     border-bottom: 5px solid transparent ;
     border-top: 5px solid transparent ;
   }
@@ -225,14 +225,14 @@
   font-weight: bold;
   font-size: 15px;
   line-height: 21px;
-  color: $block-text-color;
+  color: $light-black;
 }
 
 .news-block {
   padding-top: 6px;
   font-size: 15px;
   line-height: 21px;
-  color: $block-text-color;
+  color: $light-black;
 }
 
 .news-block__data {
@@ -247,7 +247,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #516E77;
+  color: $dark-gray;
 }
 
 @include media-tablet-horizontal {

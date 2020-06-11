@@ -23,19 +23,19 @@
   font-family: "Brutal", Arial, sans-serif;
   letter-spacing: -0.02em;
   padding: 1px 13px;              
-  color: #000000;
+  color: $black;
   text-decoration: none;
   border-radius: 2px;
-  transition:  0.1s linear;
+  transition: 0.1s linear;
 
   @include hoverSupport { 
-    background-color: #FAAF3F;
-    color: #fff;  
-    transition:  0.1s linear;
+    background-color: $orange;
+    color: $white;  
+    transition: 0.1s linear;
   }
 
   &:focus {
-    outline: 1px solid black;
+    outline: 1px solid $black;
   }
 }
 

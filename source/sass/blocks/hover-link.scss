@@ -3,10 +3,9 @@
   display: inline-block;
   box-sizing: border-box;
   text-decoration: none;
-  color: #ffffff;
+  color: $white;
   outline: none!important;
   
-
   &::after {
     content: '';
     opacity: 0;
