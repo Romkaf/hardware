@@ -1,10 +1,12 @@
 .slider {
   position: relative;
 }
+
 .slider__buttons {
   display: inline-block;
   position: absolute;
 }
+
 .slider__button {
   position: relative;
   width: 31px;
@@ -14,7 +16,7 @@
   border: none;
 
   &:focus {
-    outline: #000000 dotted 1px;
+    outline: $black dotted 1px;
   }
 }
 
