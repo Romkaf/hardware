@@ -5,16 +5,16 @@
 
   &__toggle {
     position: relative;
+    box-sizing: border-box;
     width: 14px;
     height: 18px;
     margin-left: 47px;
     margin-right: 17.5px;
     padding: 0;
-    box-sizing: border-box;
-    cursor: pointer;
-    outline: none;
-    background: none;
     border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
   
     &:focus {
       outline: solid 1px $black;
@@ -35,15 +35,15 @@
   }
 
   &__search {
-    margin-left: auto;
-    margin-right: 10px;
-    padding: 0;
     box-sizing: border-box;
     width: 18px;
     height: 18px;
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 0;
+    border: none;
     background: url(../img/search.svg) center no-repeat;
     background-color: transparent;
-    border: none;
   
     &:focus {
       outline: solid 1px $black;
@@ -78,19 +78,19 @@
 @include media-tablet-vertical {
   .site-nav__toggle {
     position: absolute;
-    width: 20.5px;
-    height: 20px;
     top: 14px;
     left: -25px;
+    width: 20.5px;
+    height: 20px;
 
     &:focus {
       outline-color: $white;
     }
 
     &::before{
-      width: 18.5px;
-      left: 1px;
       top: 2px;
+      left: 1px;
+      width: 18.5px;
       height: 3px;
       background-color: $white;
       box-shadow: 0 6.5px 0 0 $white,

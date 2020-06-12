@@ -7,15 +7,15 @@
 
   &__wrapper {
     display: flex;
-    align-items: center;
     height: 173px;
     background-color: $dark-blue;
+    align-items: center;
   }
 
   &__logo {
     flex-shrink: 0;
-    margin-left: 43px; 
     margin-top: 16px;
+    margin-left: 43px; 
   }
 
   &__logo-icon {
@@ -28,8 +28,8 @@
   }
 
   &__text {
-    margin-left: 53px; 
     max-width: 658px;
+    margin-left: 53px; 
     font-family: "PT Sans Caption", Arial, sans-serif;
     font-weight: normal;
     font-size: 14px;
@@ -41,9 +41,9 @@
     margin-top: 14px;
     margin-right: 19px;
     margin-left: 18px;
+    font-weight: bold;
     font-size: 15px;
     line-height: 10px;
-    font-weight: bold;
     text-decoration: none;
     color: $white;
     outline: none;
@@ -72,12 +72,12 @@
 
 @include media-tablet-vertical {
   .page-header__logo {
-    flex-shrink: 1;
     position: relative;
     left: 50%;
     right: 50%;
-    transform: translateX(-50%);
+    flex-shrink: 1;
     margin-left: 0;
+    transform: translateX(-50%);
   }
 
   .page-header__text {

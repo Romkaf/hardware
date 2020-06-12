@@ -94,8 +94,8 @@
 
 .series-block__list {
   position: relative;
-  padding-top: 6px; 
   margin-top: 19px;
+  padding-top: 6px; 
   border-left: 1px solid $grey;
 
   &::before,
@@ -143,8 +143,8 @@
   &::before {
     content: '';
     position: absolute;
-    left: -6px;
     top: 7px;
+    left: -6px;
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -192,20 +192,20 @@
   background-size: cover;
 
   &__link {
-    margin: 8px;
     min-width: 198px;
     min-height: 125px;
+    margin: 8px;
   }
 
   &__play {
     position: absolute;
-    left: 50%;
     top: 52%;
-    transform: translate(-50%, -50%);
+    left: 50%;
     width: 30px;
     height: 30px; 
     border: 1px solid $white;
     border-radius: 50%;
+    transform: translate(-50%, -50%);
   
     &::after {
       content: '';

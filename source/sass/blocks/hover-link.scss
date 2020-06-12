@@ -8,13 +8,12 @@
   
   &::after {
     content: '';
-    opacity: 0;
     position: absolute;
-    pointer-events: none;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
+    opacity: 0;
     background-image: url(../img/corner.png),
                       url(../img/corner2.png),
                       url(../img/corner3.png),
@@ -22,6 +21,7 @@
     background-repeat: no-repeat;
     background-position: 0% 0%,100% 0%,100% 100%,0% 100%;
     background-size: 20px;
+    pointer-events: none;
     transition: opacity 0.1s linear;
   }
 

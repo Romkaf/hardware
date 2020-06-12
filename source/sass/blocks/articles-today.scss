@@ -16,10 +16,10 @@
   box-sizing: border-box;
   min-height: 492px;
   margin-bottom: 25px;
-  color: $white;
   background-color: $black;
   background-position-x: center;
   background-size: cover;
+  color: $white;
 
   &-1 {
     width: 100%;
@@ -47,8 +47,8 @@
     background-image: url(../img/img-article2.png);
   
     .articles-today__text {
-      margin-top: 64px;
       max-width: 450px;
+      margin-top: 64px;
     }
   }
 
@@ -94,8 +94,8 @@
 }
 
 .articles-today__name {
-  margin-top: 40px;
   max-width: 558px;
+  margin-top: 40px;
   font-family: "Brutal", Arial ,sans-serif;
   font-weight: bold;
   font-size: 24px;
@@ -123,8 +123,8 @@
 }
 
 .articles-today__final-text {
-  margin-left: -2px;
   margin-top: 2px;
+  margin-left: -2px;
   font-size: 17px;
   line-height: 24px;
   color: $light-black;
@@ -140,8 +140,8 @@
     background-image: url(../img/tablet-goriz-article1.png);
 
     .articles-today__extra-info {
-      padding-top: 0;
       margin-right: -1px;
+      padding-top: 0;
     }
   }
 
@@ -210,8 +210,8 @@
   }
 
   .articles-today__link  {
-    min-height: 370px;
     width: calc(100% - 16px);
+    min-height: 370px;
     padding-top: 64px;
     padding-left: 11px;
   }
@@ -229,13 +229,13 @@
   }
 
   .articles-today__info-wrapper {
-    bottom: 10px;
     left: 23px;
+    bottom: 10px;
   }
 
   .articles-today__final-text {
-    padding: 0 16px;
     margin-top: 12px;
+    padding: 0 16px;
   }
 }
 
@@ -264,10 +264,10 @@
 
 
   .articles-today__link  {
+    width: calc(100% - 12px);
+    min-height: 374px;
     margin: 6px;
     padding: 108px 14px 24px 8px;
-    min-height: 374px;
-    width: calc(100% - 12px);
   }
 
   .articles-today__topic {
@@ -280,8 +280,8 @@
   }
 
   .articles-today__info-wrapper {
-    bottom: 23px;
     left: 8px;
+    bottom: 23px;
   }
 
   .articles-today__author-info {

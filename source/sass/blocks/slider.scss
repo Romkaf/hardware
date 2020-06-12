@@ -2,8 +2,8 @@
   position: relative;
 
   &__buttons {
-    display: inline-block;
     position: absolute;
+    display: inline-block;
   }
 
   &__button {
@@ -11,19 +11,19 @@
     width: 31px;
     height: 30px;
     padding: 0;
-    background: none;
     border: none;
+    background: none;
   
     &:focus {
       outline: $black dotted 1px;
     }
 
     &--prev {
-      background: url(../img/prev.png) center no-repeat;
+      background: url(../img/arrows.png) -1px 0px no-repeat;
     }
 
     &--next {
-      background: url(../img/next.png) center no-repeat;
+      background: url(../img/arrows.png) -21px 0px no-repeat;
     }
   }
 
