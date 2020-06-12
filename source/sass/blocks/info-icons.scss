@@ -15,20 +15,39 @@
 
   &:nth-child(1) {
     left: -1px;
+
+    &::before {
+      content: url(../img/views.png);
+      left: 1px;
+      top: 1px;
+    }
+  }
+
+  &:nth-child(2) {
+    &::before {
+      content: url(../img/likes.png);
+      left: 1px;
+    }
   }
 
   &:nth-child(3) {
     top: -2px;
     left: 2px;
+
+    &::before {
+      content: url(../img/reviews.png);
+    }
   }
 
   &:nth-child(4) {
     top: -2px;
     left: 1px;
-  }
-
-  &:last-child {
     margin-right: 0;
+
+    &::before {
+      content: url(../img/repost.png);
+      left: 4px;
+    }
   }
 
   &::before {
@@ -38,25 +57,5 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-  }
-
-  &:nth-child(1)::before {
-    content: url(../img/views.png);
-    left: 1px;
-    top: 1px;
-  }
-
-  &:nth-child(2)::before {
-    content: url(../img/likes.png);
-    left: 1px;
-  }
-
-  &:nth-child(3)::before {
-    content: url(../img/reviews.png);
-  }
-
-  &:nth-child(4)::before {
-    content: url(../img/repost.png);
-    left: 4px;
   }
 }

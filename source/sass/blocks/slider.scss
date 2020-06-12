@@ -1,40 +1,40 @@
 .slider {
   position: relative;
-}
 
-.slider__buttons {
-  display: inline-block;
-  position: absolute;
-}
-
-.slider__button {
-  position: relative;
-  width: 31px;
-  height: 30px;
-  padding: 0;
-  background: none;
-  border: none;
-
-  &:focus {
-    outline: $black dotted 1px;
+  &__buttons {
+    display: inline-block;
+    position: absolute;
   }
-}
 
-.slider__button--prev {
-  background: url(../img/prev.png) center no-repeat;
-}
+  &__button {
+    position: relative;
+    width: 31px;
+    height: 30px;
+    padding: 0;
+    background: none;
+    border: none;
+  
+    &:focus {
+      outline: $black dotted 1px;
+    }
 
-.slider__button--next {
-  background: url(../img/next.png) center no-repeat;
-}
+    &--prev {
+      background: url(../img/prev.png) center no-repeat;
+    }
 
-.slider__list {
-  display: flex;
-  overflow: hidden;   
-}
+    &--next {
+      background: url(../img/next.png) center no-repeat;
+    }
+  }
 
-.slider__item {
-  flex-shrink: 0;
+  &__list {
+    display: flex;
+    overflow: hidden;   
+  }
+
+  &__item {
+    flex-shrink: 0;
+  }
 }
 
 @include media-tablet-horizontal {
